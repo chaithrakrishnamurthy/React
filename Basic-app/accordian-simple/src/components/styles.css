@@ -1,0 +1,23 @@
+.accordian{
+  position: absolute;
+  top: 20%;
+  left:30%;
+  width: 50%;
+}
+.accordian-item{
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: rgb(98, 98, 160);
+
+}
+.accordian-content{
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: rgb(160, 158, 162);
+}
